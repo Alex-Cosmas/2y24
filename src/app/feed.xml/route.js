@@ -10,8 +10,8 @@ export async function GET(req) {
   }
 
   let author = {
-    name: 'Spencer Sharp',
-    email: 'spencer@planetaria.tech',
+    name: 'Alex Cosmas',
+    email: 'alexcosmasotieno@gmail.com',
   }
 
   let feed = new Feed({

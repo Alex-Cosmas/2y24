@@ -174,35 +174,42 @@ function Role({ role }) {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
+      company: 'Simple Formations',
+      title: 'Product Lead',
       logo: logoPlanetaria,
-      start: '2019',
+      start: 'Sept 2021',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
+      company: 'Sokoplace Group',
+      title: 'UX/UI Developer',
       logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      start: 'Nov 2020',
+      end: 'Sept 2021',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
+      company: 'Protec Group',
+      title: 'Lead Web Develper',
       logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      start: 'Feb 2017',
+      end: 'Feb 2020',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
+      company: 'Seka Marketing',
+      title: 'Project Manager',
       logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      start: 'Mar 2016',
+      end: 'Oct 2016',
+    },
+    {
+      company: 'Capital Colors',
+      title: 'Account Manager',
+      logo: logoStarbucks,
+      start: 'Aug 2014',
+      end: 'Dec 2015',
     },
   ]
 
@@ -259,35 +266,38 @@ export default async function Home() {
     <>
       <Container className="mt-9">
         <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Senior Product Designer & Software Developer
+          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">
+            Alex Cosmas. <br />
+            <span className="text-2xl font-bold tracking-tight text-zinc-800 sm:text-xl dark:text-zinc-100">
+              Senior Product Designer | Software Developer
+            </span>
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Alex, a senior product designer based in Nairobi Kenya. I am
-            currently the Product Lead for Simple Formations building an
-            enterprise legal entity management solution that helps corporates
-            manage every day due diligence and compliance.
+            I am Alex Cosmas, a Senior Product Designer based in Nairobi Kenya.
+            Currently building an enterprise legal entity management solution
+            that helps corporates manage every day due diligence and compliance
+            at Simple Formations.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink
-              href="https://twitter.com"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            />
-            <SocialLink
-              href="https://instagram.com"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            />
-            <SocialLink
-              href="https://github.com"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
             <SocialLink
               href="https://linkedin.com"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
+            />
+            {/* <SocialLink
+              href="https://instagram.com"
+              aria-label="Follow on Instagram"
+              icon={InstagramIcon}
+            /> */}
+            <SocialLink
+              href="https://github.com"
+              aria-label="Follow on GitHub"
+              icon={GitHubIcon}
+            />{' '}
+            <SocialLink
+              href="https://twitter.com"
+              aria-label="Follow on Twitter"
+              icon={TwitterIcon}
             />
           </div>
         </div>
