@@ -273,10 +273,12 @@ export default async function Home() {
             </span>
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I am Alex Cosmas, a Senior Product Designer based in Nairobi Kenya.
-            Currently building an enterprise legal entity management solution
-            that helps corporates manage every day due diligence and compliance
-            at Simple Formations.
+            I am Alex Cosmas, a Senior Product Designer based in Nairobi, Kenya,
+            creating solutions for complex and challenging problems through
+            design and code. Currently, I am the Product Lead at Simple
+            Formations, where I am building an enterprise legal entity
+            management solution that helps corporates manage daily due diligence
+            and compliance.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

@@ -9,7 +9,7 @@ export const metadata = {
     default: 'Alex Cosmas - Software Developer | Product Designer',
   },
   description:
-    'I’m Alex, a Senior Product Designer based in Nairobi Kenya. I am currently building an enterprise legal entity management solution that helps corporates manage every day due diligence and compliance @ Simple Formations.',
+    'I am Alex Cosmas, a Senior Product Designer based in Nairobi, Kenya, creating solutions for complex and challenging problems through design and code. Currently, I am the Product Lead at Simple Formations, where I am building an enterprise legal entity management solution that helps corporates manage daily due diligence and compliance.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
