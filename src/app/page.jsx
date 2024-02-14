@@ -13,7 +13,15 @@ import {
 } from '@/components/SocialIcons'
 import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+// import logoPlanetaria from '@/images/logos/planetaria.svg'
+import sfl from '@/images/logos/sfl.png'
+import sokoplaceLogo from '@/images/logos/sokoplaceLogo.png'
+import capitalcolorsLogo from '@/images/logos/capitalcolorsLogo.jpeg'
+import protecconsultingLogo from '@/images/logos/protecconsultingLogo.png'
+import sekamarketingLogo from '@/images/logos/sekamarketingLogo.jpg'
+
+
+
 import logoStarbucks from '@/images/logos/starbucks.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
@@ -171,12 +179,14 @@ function Role({ role }) {
   )
 }
 
+
+
 function Resume() {
   let resume = [
     {
       company: 'Simple Formations',
       title: 'Product Lead',
-      logo: logoPlanetaria,
+      logo: sfl,
       start: 'Sept 2021',
       end: {
         label: 'Present',
@@ -186,28 +196,28 @@ function Resume() {
     {
       company: 'Sokoplace Group',
       title: 'UX/UI Developer',
-      logo: logoAirbnb,
+      logo: sokoplaceLogo,
       start: 'Nov 2020',
       end: 'Sept 2021',
     },
     {
       company: 'Protec Group',
       title: 'Lead Web Develper',
-      logo: logoFacebook,
+      logo: protecconsultingLogo,
       start: 'Feb 2017',
       end: 'Feb 2020',
     },
     {
       company: 'Seka Marketing',
       title: 'Project Manager',
-      logo: logoStarbucks,
+      logo: sekamarketingLogo,
       start: 'Mar 2016',
       end: 'Oct 2016',
     },
     {
       company: 'Capital Colors',
       title: 'Account Manager',
-      logo: logoStarbucks,
+      logo: capitalcolorsLogo,
       start: 'Aug 2014',
       end: 'Dec 2015',
     },
@@ -217,7 +227,7 @@ function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
+        <span className="ml-3">Experience</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
@@ -273,12 +283,8 @@ export default async function Home() {
             </span>
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I am Alex Cosmas, a Senior Product Designer based in Nairobi, Kenya,
-            creating solutions for complex and challenging problems through
-            design and code. Currently, I am the Product Lead at Simple
-            Formations, where I am building an enterprise legal entity
-            management solution that helps corporates manage daily due diligence
-            and compliance.
+            I am Alex Cosmas, a Senior Product Designer and Software Developer based in Nairobi, Kenya. I specialize in creating practical solutions for enterprise challenges through design and code. I'm the Product Lead at Simple Formations where we are currently focused on innovating an enterprise legal entity management solution (SAAS) that simplifies corporate goverance management and compliance processes.
+            
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -286,21 +292,22 @@ export default async function Home() {
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
-            {/* <SocialLink
-              href="https://instagram.com"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            /> */}
-            <SocialLink
-              href="https://github.com"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />{' '}
             <SocialLink
               href="https://twitter.com"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
+            {/* <SocialLink
+              href="https://instagram.com"
+              aria-label="Follow on Instagram"
+              icon={InstagramIcon}
+            /> */}
+            {/* <SocialLink
+              href="https://github.com"
+              aria-label="Follow on GitHub"
+              icon={GitHubIcon}
+            />{' '} */}
+            
           </div>
         </div>
       </Container>
